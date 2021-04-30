@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cyan_200">#62efff</color>
+    <color name="cyan_500">#00bcd4</color>
+    <color name="cyan_700">#008ba3</color>
+    <color name="pink_200">#ff6090</color>
+    <color name="pink_700">#b0003a</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ic_launcher_background">@color/cyan_500</color>
+</resources>

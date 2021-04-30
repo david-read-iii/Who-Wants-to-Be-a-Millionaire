@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.QuizActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/text_view_quiz_position"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Question [0] of [0]" />
+
+            <TextView
+                android:id="@+id/text_view_score"
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:text="Score: $[0]"
+                android:textAllCaps="false" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/generic_activity_padding">
+
+        <TextView
+            android:id="@+id/text_view_question"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="[Question]" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radio_group_options"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radio_option_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Option 1]" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Option 2]" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Option 3]" />
+
+                <RadioButton
+                    android:id="@+id/radio_option_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[Option 4]" />
+
+            </RadioGroup>
+
+            <Button
+                android:id="@+id/button_next"
+                style="?attr/buttonBarPositiveButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/button_next" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Who Wants to Be a Millionaire?</string>
+
+    <string name="action_bar_label_welcome">Welcome</string>
+    <string name="action_bar_label_quiz">Question %1$d of %2$d</string>
+    <string name="action_bar_label_score">Score: %1$s</string>
+    <string name="action_bar_label_results">Results</string>
+
+    <string name="text_view_instructions">
+        This quiz consists of questions carefully designed to assess your comprehension of several
+        trivia topics, such as pop culture, history, and sports. Each question is of format
+        multiple-choice. Read each question carefully and select the response that best answers that
+        question. One correctly answered question scores you $50, and every subsequently correctly
+        answered question doubles the score. Answer 16 questions correct and you\'ll be a
+        millionaire! But answer one question incorrectly and the game is over!
+    </string>
+    <string name="text_view_results_message_success">You answered all questions correctly!</string>
+    <string name="text_view_results_message_failed">You answered a question incorrectly!</string>
+    <string name="text_view_results_score">You earned %1$s</string>
+
+    <string name="button_start">Start</string>
+    <string name="button_next">Next</string>
+    <string name="button_finish">Finish</string>
+</resources>
